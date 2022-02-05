@@ -82,8 +82,7 @@ reset.addEventListener('click',()=> {
 
   if(6==T<=8){
     document.body.style.backgroundColor="grey"
-  }
-  else if(6<T<17){
+  }else if(T>7 && T<17){
     document.body.style.backgroundColor="yellow"
   }else if(T==17){
     document.body.style.backgroundColor='orange' 
